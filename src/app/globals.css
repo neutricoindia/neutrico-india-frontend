@@ -206,12 +206,17 @@
   margin-bottom: 50px;
 }
 .grid-3 > li:nth-last-child(-n + 3) {
-  margin-bottom: 0;
+  margin-bottom: 4.21052%;
 } /* Removes bottom margin from the last line of items - margin is restored in the media queries when items stack */
 .grid-3 > li:nth-child(3n + 1) {
   margin-left: 0;
   clear: left;
 } /* Removes the need to add class="first" */
+
+.grid-3>li.one_half:nth-child(2n + 1) {
+  margin-left: 0;
+  clear: left;
+}
 
 /* Services */
 #services {
