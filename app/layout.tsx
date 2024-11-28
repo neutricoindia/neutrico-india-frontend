@@ -2,23 +2,23 @@ import type { Metadata } from "next";
 import "./globals.css";
 import local from "next/font/local";
 
-const deacon = local({
-  src: [
-    {
-      path: "../../public/webfonts/fa-brands-400.woff",
-      weight: "400",
-    },
-    {
-      path: "../../public/webfonts/fa-regular-400.eot",
-      weight: "400",
-    },
-    {
-      path: "../../public/webfonts/fa-solid-900.eot",
-      weight: "900",
-    },
-  ],
-  variable: "--fa",
-});
+// const deacon = local({
+//   src: [
+//     {
+//       path: "../../public/webfonts/fa-brands-400.woff",
+//       weight: "400",
+//     },
+//     {
+//       path: "../../public/webfonts/fa-regular-400.eot",
+//       weight: "400",
+//     },
+//     {
+//       path: "../../public/webfonts/fa-solid-900.eot",
+//       weight: "900",
+//     },
+//   ],
+//   variable: "--fa",
+// });
 
 export const metadata: Metadata = {
   title: "Neutrico India",

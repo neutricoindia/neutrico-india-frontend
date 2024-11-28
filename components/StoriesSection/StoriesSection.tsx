@@ -1,4 +1,16 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBong,
+  faCapsules,
+  faClock,
+  faEnvelope,
+  faEye,
+  faHandHoldingHeart,
+  faLightbulb,
+  faPeopleCarry,
+  faPhone,
+} from "@fortawesome/free-solid-svg-icons";
 
 function StoriesSection() {
   return (
@@ -16,7 +28,19 @@ function StoriesSection() {
             <article>
               <h6 className="heading">
                 <a href="#">
-                  <i className="fas fa-hand-holding-heart"></i>
+                  <FontAwesomeIcon
+                    icon={faHandHoldingHeart}
+                    className="fas fa-hand-holding-heart"
+                    style={{
+                      display: "inline-block",
+                      marginRight: "10px",
+                      width: "32px",
+                      height: "32px",
+                      lineHeight: "32px",
+                      textAlign: "center",
+                      color: "#d24130",
+                    }}
+                  ></FontAwesomeIcon>
                 </a>
                 Aim
               </h6>
@@ -36,7 +60,19 @@ function StoriesSection() {
             <article>
               <h6 className="heading">
                 <a href="#">
-                  <i className="fas fa-capsules"></i>
+                  <FontAwesomeIcon
+                    icon={faCapsules}
+                    className="fas fa-capsules"
+                    style={{
+                      display: "inline-block",
+                      marginRight: "10px",
+                      width: "32px",
+                      height: "32px",
+                      lineHeight: "32px",
+                      textAlign: "center",
+                      color: "#d24130",
+                    }}
+                  ></FontAwesomeIcon>
                 </a>
                 Commitment
               </h6>
@@ -57,7 +93,19 @@ function StoriesSection() {
             <article>
               <h6 className="heading">
                 <a href="#">
-                  <i className="fas fa-bong"></i>
+                  <FontAwesomeIcon
+                    icon={faBong}
+                    className="fas fa-bong"
+                    style={{
+                      display: "inline-block",
+                      marginRight: "10px",
+                      width: "32px",
+                      height: "32px",
+                      lineHeight: "32px",
+                      textAlign: "center",
+                      color: "#d24130",
+                    }}
+                  ></FontAwesomeIcon>
                 </a>
                 Innovation
               </h6>
@@ -77,7 +125,19 @@ function StoriesSection() {
             <article>
               <h6 className="heading">
                 <a href="#">
-                  <i className="fas fa-people-carry"></i>
+                  <FontAwesomeIcon
+                    icon={faPeopleCarry}
+                    className="fas fa-people-carry"
+                    style={{
+                      display: "inline-block",
+                      marginRight: "10px",
+                      width: "32px",
+                      height: "32px",
+                      lineHeight: "32px",
+                      textAlign: "center",
+                      color: "#d24130",
+                    }}
+                  ></FontAwesomeIcon>
                 </a>
                 Efforts
               </h6>
@@ -96,7 +156,19 @@ function StoriesSection() {
             <article>
               <h6 className="heading">
                 <a href="#">
-                  <i className="fas fa-lightbulb"></i>
+                  <FontAwesomeIcon
+                    icon={faLightbulb}
+                    className="fas fa-lightbulb"
+                    style={{
+                      display: "inline-block",
+                      marginRight: "10px",
+                      width: "32px",
+                      height: "32px",
+                      lineHeight: "32px",
+                      textAlign: "center",
+                      color: "#d24130",
+                    }}
+                  ></FontAwesomeIcon>
                 </a>
                 Mission
               </h6>
@@ -116,7 +188,19 @@ function StoriesSection() {
             <article>
               <h6 className="heading">
                 <a href="#">
-                  <i className="fas fa-eye"></i>
+                  <FontAwesomeIcon
+                    icon={faEye}
+                    className="fas fa-eye"
+                    style={{
+                      display: "inline-block",
+                      marginRight: "10px",
+                      width: "32px",
+                      height: "32px",
+                      lineHeight: "32px",
+                      textAlign: "center",
+                      color: "#d24130",
+                    }}
+                  ></FontAwesomeIcon>
                 </a>
                 Vision
               </h6>

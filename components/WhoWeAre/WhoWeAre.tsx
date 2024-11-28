@@ -1,5 +1,17 @@
 import Image from "next/image";
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faAward,
+  faBrain,
+  faCapsules,
+  faClock,
+  faEnvelope,
+  faHandHoldingHeart,
+  faHeart,
+  faPhone,
+  faStethoscope,
+} from "@fortawesome/free-solid-svg-icons";
 
 function WhoWeAre() {
   return (
@@ -63,7 +75,19 @@ function WhoWeAre() {
               <article>
                 <h6 className="heading">
                   <a href="#">
-                    <i className="fas fa-hand-holding-heart"></i>
+                    <FontAwesomeIcon
+                      icon={faHandHoldingHeart}
+                      className="fas fa-hand-holding-heart"
+                      style={{
+                        display: "inline-block",
+                        marginRight: "10px",
+                        width: "32px",
+                        height: "32px",
+                        lineHeight: "32px",
+                        textAlign: "center",
+                        color: "#d24130",
+                      }}
+                    ></FontAwesomeIcon>
                   </a>
                   Legacy Of Trust:
                 </h6>
@@ -85,7 +109,19 @@ function WhoWeAre() {
               <article>
                 <h6 className="heading">
                   <a href="#">
-                    <i className="fas fa-capsules"></i>
+                    <FontAwesomeIcon
+                      icon={faCapsules}
+                      className="fas fa-capsules"
+                      style={{
+                        display: "inline-block",
+                        marginRight: "10px",
+                        width: "32px",
+                        height: "32px",
+                        lineHeight: "32px",
+                        textAlign: "center",
+                        color: "#d24130",
+                      }}
+                    ></FontAwesomeIcon>
                   </a>
                   Research Based methods
                 </h6>
@@ -106,7 +142,19 @@ function WhoWeAre() {
               <article>
                 <h6 className="heading">
                   <a href="#">
-                    <i className="fas fa-heart"></i>
+                    <FontAwesomeIcon
+                      icon={faHeart}
+                      className="fas fa-heart"
+                      style={{
+                        display: "inline-block",
+                        marginRight: "10px",
+                        width: "32px",
+                        height: "32px",
+                        lineHeight: "32px",
+                        textAlign: "center",
+                        color: "#d24130",
+                      }}
+                    ></FontAwesomeIcon>
                   </a>
                   Impact & Thrive
                 </h6>

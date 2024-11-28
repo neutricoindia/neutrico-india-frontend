@@ -1,6 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faEnvelope,
+  faHome,
+  faInfoCircle,
+  faTh,
+  faThLarge,
+  faThList,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Nav({ active }: any) {
   return (
@@ -23,12 +32,32 @@ function Nav({ active }: any) {
           <ul className="clear">
             <li className={active === "home" ? "active" : ""}>
               <Link href="/">
-                <i className="fas fa-home"></i> Home
+                <FontAwesomeIcon
+                  icon={faHome}
+                  className="fas fa-home"
+                  style={{
+                    display: "inline-block",
+                    width: "13px",
+                    height: "13px",
+                    marginRight: "4px",
+                  }}
+                ></FontAwesomeIcon>
+                Home
               </Link>
             </li>
             <li className={active === "about" ? "active" : ""}>
               <Link href="/about">
-                <i className="fas fa-info-circle"></i> About
+                <FontAwesomeIcon
+                  icon={faInfoCircle}
+                  className="fas fa-info-circle"
+                  style={{
+                    display: "inline-block",
+                    width: "13px",
+                    height: "13px",
+                    marginRight: "4px",
+                  }}
+                ></FontAwesomeIcon>
+                About
               </Link>
             </li>
 
@@ -50,12 +79,32 @@ function Nav({ active }: any) {
             </li> */}
             <li className={active === "products" ? "active" : ""}>
               <Link href="/products">
-                <i className="fas fa-th"></i> Products
+                <FontAwesomeIcon
+                  icon={faThList}
+                  className="fas fa-th-large"
+                  style={{
+                    display: "inline-block",
+                    width: "13px",
+                    height: "13px",
+                    marginRight: "4px",
+                  }}
+                ></FontAwesomeIcon>
+                Products
               </Link>
             </li>
             <li className={active === "contact" ? "active" : ""}>
               <Link href="/contact">
-                <i className="fas fa-envelope"></i> Contact Us
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  className="fas fa-envelope"
+                  style={{
+                    display: "inline-block",
+                    width: "13px",
+                    height: "13px",
+                    marginRight: "4px",
+                  }}
+                ></FontAwesomeIcon>
+                Contact Us
               </Link>
             </li>
           </ul>

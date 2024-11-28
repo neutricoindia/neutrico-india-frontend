@@ -4,7 +4,30 @@ import Header from "@/components/Header/Header";
 import Nav from "@/components/Nav/Nav";
 import OtherPagesHero from "@/components/OtherPagesHero/OtherPagesHero";
 import React from "react";
+const openGraphImage = {
+  images: [
+    "http://localhost:3000/images/logo.png",
+    "http://localhost:3000/images/firmbee-com-SpVHcbuKi6E-unsplash.jpg",
+  ],
+};
 
+export const metadata = {
+  title: "Nutrico India | Contact Page",
+  openGraph: {
+    ...openGraphImage,
+    title: "Nutrico India Contact Page",
+    description: `
+    Get In Touch with NEUTRICO INDIA.
+    We're always excited to hear from you! Questions, feedback, or greetings welcome (contact info below).
+    Contact Us:
+    NEUTRICO INDIA
+    A321, Master Mind 4, Royal Palms,
+    Goregaon (East),
+    Mumbai,
+    Maharashtra- 400065
+    `,
+  },
+};
 function ContactPage() {
   return (
     <div>

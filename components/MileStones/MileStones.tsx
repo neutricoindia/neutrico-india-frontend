@@ -1,5 +1,15 @@
 import Link from "next/link";
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faAward,
+  faBrain,
+  faClock,
+  faEnvelope,
+  faHeart,
+  faPhone,
+  faStethoscope,
+} from "@fortawesome/free-solid-svg-icons";
 
 function MileStones() {
   return (
@@ -22,7 +32,19 @@ function MileStones() {
             <ul className="nospace group">
               <li className="one_half first btmspace-30">
                 <Link href="/about">
-                  <i className="icon btmspace-30 fas fa-award"></i>
+                  <i className="icon btmspace-30">
+                    <FontAwesomeIcon
+                      icon={faAward}
+                      className="fas fa-award"
+                      style={{
+                        display: "inline-block",
+                        width: "35px",
+                        height: "35px",
+                        textAlign: "center",
+                        color: "inherit",
+                      }}
+                    ></FontAwesomeIcon>
+                  </i>
                 </Link>
                 <h6 className="heading">Quality Assurance: </h6>
                 <p>
@@ -35,7 +57,19 @@ function MileStones() {
               </li>
               <li className="one_half btmspace-30">
                 <Link href="/about">
-                  <i className="icon btmspace-30 fas fa-brain"></i>
+                  <i className="icon btmspace-30">
+                    <FontAwesomeIcon
+                      icon={faBrain}
+                      className="fas fa-brain"
+                      style={{
+                        display: "inline-block",
+                        width: "35px",
+                        height: "35px",
+                        textAlign: "center",
+                        color: "inherit",
+                      }}
+                    ></FontAwesomeIcon>
+                  </i>
                 </Link>
                 <h6 className="heading">Research and Development:</h6>
                 <p>
@@ -48,7 +82,19 @@ function MileStones() {
               </li>
               <li className="one_half first">
                 <Link href="/about">
-                  <i className="icon btmspace-30 fas fa-stethoscope"></i>
+                  <i className="icon btmspace-30 ">
+                    <FontAwesomeIcon
+                      icon={faStethoscope}
+                      className="fas fa-stethoscope"
+                      style={{
+                        display: "inline-block",
+                        width: "35px",
+                        height: "35px",
+                        textAlign: "center",
+                        color: "inherit",
+                      }}
+                    ></FontAwesomeIcon>
+                  </i>
                 </Link>
                 <h6 className="heading">
                   Collaboration with Healthcare Professionals:
@@ -64,7 +110,19 @@ function MileStones() {
               </li>
               <li className="one_half last">
                 <Link href="/about">
-                  <i className="icon btmspace-30 fas fa-heart"></i>
+                  <i className="icon btmspace-30">
+                    <FontAwesomeIcon
+                      icon={faHeart}
+                      className="fas fa-heart"
+                      style={{
+                        display: "inline-block",
+                        width: "35px",
+                        height: "35px",
+                        textAlign: "center",
+                        color: "inherit",
+                      }}
+                    ></FontAwesomeIcon>
+                  </i>
                 </Link>
                 <h6 className="heading">Reach:</h6>
                 <p>
