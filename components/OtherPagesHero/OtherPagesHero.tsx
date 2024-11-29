@@ -14,7 +14,7 @@ function OtherPagesHero({ bgURL, title, body }: any) {
       >
         <div id="pageintroOther" className="hoc clear">
           <article>
-            <p>{title}</p>
+            <h2>{title}</h2>
             <h3 className="heading">{body}</h3>
             <footer>
               <Link className="btn" href="/contact">

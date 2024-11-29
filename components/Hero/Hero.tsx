@@ -15,7 +15,7 @@ function Hero() {
       >
         <div id="pageintro" className="hoc clear">
           <article>
-            <p>NEUTRICO INDIA.</p>
+            <h2>NEUTRICO INDIA.</h2>
             <h3 className="heading">
               Converting scientific knowledge into nutritional solutions to
               enhance the health of humanity.

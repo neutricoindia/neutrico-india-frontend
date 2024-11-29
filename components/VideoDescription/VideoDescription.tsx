@@ -74,7 +74,7 @@ function VideoDescription() {
                       >
                         <Image
                           src={`/images/${item.poster}`}
-                          alt=""
+                          alt={item.title}
                           width={0}
                           height={0}
                           sizes="100vw"

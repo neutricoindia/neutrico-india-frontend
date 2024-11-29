@@ -34,7 +34,7 @@ function Products() {
                     src={"/images/p2.png"}
                     width={200}
                     height={200}
-                    alt=""
+                    alt={"NEUTRIFEM"}
                   />
                 </div>
 
@@ -91,7 +91,7 @@ function Products() {
                     src={"/images/p1.png"}
                     width={200}
                     height={200}
-                    alt=""
+                    alt={"NEUTRITHIN"}
                   />
                 </div>
 
@@ -150,7 +150,7 @@ function Products() {
                     src={"/images/neutriova.jpeg"}
                     width={200}
                     height={200}
-                    alt=""
+                    alt={"NUTRIOVA"}
                   />
                 </div>
                 <p>
