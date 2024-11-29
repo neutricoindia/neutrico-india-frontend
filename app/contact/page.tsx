@@ -6,13 +6,16 @@ import OtherPagesHero from "@/components/OtherPagesHero/OtherPagesHero";
 import React from "react";
 const openGraphImage = {
   images: [
-    "http://localhost:3000/images/logo.png",
-    "http://localhost:3000/images/firmbee-com-SpVHcbuKi6E-unsplash.jpg",
+    "https://www.neutricoindia.in/images/logo.png",
+    "https://www.neutricoindia.in/images/firmbee-com-SpVHcbuKi6E-unsplash.jpg",
   ],
 };
 
 export const metadata = {
   title: "Nutrico India | Get In Touch with Us",
+  alternates: {
+    canonical: "https://www.neutricoindia.in/contact",
+  },
   description: `
     Get In Touch with NEUTRICO INDIA.
     We're always excited to hear from you! Questions, feedback, or greetings welcome (contact info below).

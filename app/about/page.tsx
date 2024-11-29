@@ -6,14 +6,17 @@ import WhoWeAre from "@/components/WhoWeAre/WhoWeAre";
 import React from "react";
 const openGraphImage = {
   images: [
-    "http://localhost:3000/images/logo.png",
-    "http://localhost:3000/images/stock-photo-pregnancy-test-kit-female-hand-hold-positive-pregnant-test-with-silk-ribbon-on-pink-banner-2117923835-transformed.jpeg",
+    "https://www.neutricoindia.in/images/logo.png",
+    "https://www.neutricoindia.in/images/stock-photo-pregnancy-test-kit-female-hand-hold-positive-pregnant-test-with-silk-ribbon-on-pink-banner-2117923835-transformed.jpeg",
   ],
 };
 
 export const metadata = {
   title:
     "Advancing Global Health: Explore Neutrico India's Innovative Solutions",
+  alternates: {
+    canonical: "https://www.neutricoindia.in/about",
+  },
   description: `NEUTRICO INDIA is a leading provider of science-backed nutritional solutions dedicated to improving global health. By harnessing the power of research and innovation, we offer a range of products, including nutraceuticals and medical nutrition, tailored to specific health needs. Our commitment to quality and efficacy ensures that our solutions empower individuals to live healthier, happier lives.`,
   keywords:
     "NEUTRICO INDIA, nutricoindia, nutritional solutions, nutraceuticals, medical nutrition, women's health, gynecological health, healthcare industry, evidence-based medicine, scientific research, personalized wellness, global wellness, preventative healthcare, supplementary nutrition, innovative nutritional solutions, sustainable nutrition, science-backed products, healthcare professionals, top-quality healthcare products, health challenges, research-driven nutrition, personalized health solutions, global health advancement, health and wellness, scientific rigor, nutraceutical innovation, leadership in health, safe healthcare solutions",

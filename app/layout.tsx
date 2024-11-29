@@ -22,15 +22,18 @@ import local from "next/font/local";
 
 const openGraphImage = {
   images: [
-    "http://localhost:3000/images/logo.png",
-    "http://localhost:3000/images/p1.png",
-    "http://localhost:3000/images/p2.png",
-    "http://localhost:3000/images/neutriova.jpeg",
+    "https://www.neutricoindia.in/images/logo.png",
+    "https://www.neutricoindia.in/images/p1.png",
+    "https://www.neutricoindia.in/images/p2.png",
+    "https://www.neutricoindia.in/images/neutriova.jpeg",
   ],
 };
 
 export const metadata = {
   title: "NEUTRICO INDIA: Leading the Way in Nutritional Science and Wellness",
+  alternates: {
+    canonical: "https://www.neutricoindia.in",
+  },
   description: `NEUTRICO INDIA is a global leader in nutritional science, dedicated to improving global health through innovative, research-driven solutions. We offer a wide range of science-backed products, including nutraceuticals and medical nutrition, designed to address specific health needs and empower individuals to live healthier lives. Our commitment to quality, efficacy, and personalized nutrition sets us apart as a trusted partner in your wellness journey.`,
   keywords:
     "NEUTRICO INDIA, nutricoindia, nutritional solutions, nutraceuticals, medical nutrition, women's health, gynecological health, healthcare industry, evidence-based medicine, scientific research, personalized wellness, global wellness, preventative healthcare, supplementary nutrition, innovative nutritional solutions, sustainable nutrition, science-backed products, healthcare professionals, top-quality healthcare products, health challenges, research-driven nutrition, personalized health solutions, global health advancement, health and wellness, scientific rigor, nutraceutical innovation, leadership in health, safe healthcare solutions",
