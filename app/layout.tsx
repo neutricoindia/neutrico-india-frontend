@@ -30,50 +30,14 @@ const openGraphImage = {
 };
 
 export const metadata = {
-  title: "Nutrico India | A Commitment to Health and Wellness",
-  description: `A Commitment to Health and Wellness
-                NEUTRICO INDIA is a pioneer in the field of nutritional science, dedicated to improving global health through innovative, research-driven solutions. Our team of experts harnesses the power of science and technology to develop tailored, sustainable nutritional products that empower individuals to thrive.
-                Our Mission:
-                We are committed to:
-                Scientific Innovation: Continuously pushing the boundaries of nutritional research to deliver cutting-edge solutions.
-                Personalized Wellness: Creating customized nutritional plans to address specific health needs and goals.
-                Global Impact: Making a positive difference in the lives of people worldwide by promoting optimal health and well-being.
-                Our Focus Areas
-                Nutraceuticals: Harnessing the power of nature to develop effective dietary supplements.
-                Medical Nutrition: Providing specialized nutritional solutions for individuals with specific health conditions.
-                Women's Health: Empowering women with targeted nutritional support.
-                Why Choose NEUTRICO INDIA?
-                Research-Driven Approach: Our products are backed by rigorous scientific research and clinical trials.
-                Quality Assurance: We adhere to the highest quality standards in manufacturing and testing.
-                Expert Formulation: Our team of experts develops innovative formulas to optimize nutrient absorption and efficacy.
-                Personalized Solutions: We offer tailored nutritional advice and product recommendations to meet your unique needs.
-                Our Vision
-                To be the global leader in evidence-based nutrition, transforming lives through science-backed solutions.
-                Join us in our mission to create a healthier future.`,
+  title: "NEUTRICO INDIA: Leading the Way in Nutritional Science and Wellness",
+  description: `NEUTRICO INDIA is a global leader in nutritional science, dedicated to improving global health through innovative, research-driven solutions. We offer a wide range of science-backed products, including nutraceuticals and medical nutrition, designed to address specific health needs and empower individuals to live healthier lives. Our commitment to quality, efficacy, and personalized nutrition sets us apart as a trusted partner in your wellness journey.`,
   keywords:
     "NEUTRICO INDIA, nutricoindia, nutritional solutions, nutraceuticals, medical nutrition, women's health, gynecological health, healthcare industry, evidence-based medicine, scientific research, personalized wellness, global wellness, preventative healthcare, supplementary nutrition, innovative nutritional solutions, sustainable nutrition, science-backed products, healthcare professionals, top-quality healthcare products, health challenges, research-driven nutrition, personalized health solutions, global health advancement, health and wellness, scientific rigor, nutraceutical innovation, leadership in health, safe healthcare solutions",
   openGraph: {
     ...openGraphImage,
     title: "Nutrico India",
-    description: `A Commitment to Health and Wellness
-                NEUTRICO INDIA is a pioneer in the field of nutritional science, dedicated to improving global health through innovative, research-driven solutions. Our team of experts harnesses the power of science and technology to develop tailored, sustainable nutritional products that empower individuals to thrive.
-                Our Mission:
-                We are committed to:
-                Scientific Innovation: Continuously pushing the boundaries of nutritional research to deliver cutting-edge solutions.
-                Personalized Wellness: Creating customized nutritional plans to address specific health needs and goals.
-                Global Impact: Making a positive difference in the lives of people worldwide by promoting optimal health and well-being.
-                Our Focus Areas
-                Nutraceuticals: Harnessing the power of nature to develop effective dietary supplements.
-                Medical Nutrition: Providing specialized nutritional solutions for individuals with specific health conditions.
-                Women's Health: Empowering women with targeted nutritional support.
-                Why Choose NEUTRICO INDIA?
-                Research-Driven Approach: Our products are backed by rigorous scientific research and clinical trials.
-                Quality Assurance: We adhere to the highest quality standards in manufacturing and testing.
-                Expert Formulation: Our team of experts develops innovative formulas to optimize nutrient absorption and efficacy.
-                Personalized Solutions: We offer tailored nutritional advice and product recommendations to meet your unique needs.
-                Our Vision
-                To be the global leader in evidence-based nutrition, transforming lives through science-backed solutions.
-                Join us in our mission to create a healthier future.`,
+    description: `NEUTRICO INDIA is a global leader in nutritional science, dedicated to improving global health through innovative, research-driven solutions. We offer a wide range of science-backed products, including nutraceuticals and medical nutrition, designed to address specific health needs and empower individuals to live healthier lives. Our commitment to quality, efficacy, and personalized nutrition sets us apart as a trusted partner in your wellness journey.`,
     keywords:
       "NEUTRICO INDIA, nutricoindia, nutritional solutions, nutraceuticals, medical nutrition, women's health, gynecological health, healthcare industry, evidence-based medicine, scientific research, personalized wellness, global wellness, preventative healthcare, supplementary nutrition, innovative nutritional solutions, sustainable nutrition, science-backed products, healthcare professionals, top-quality healthcare products, health challenges, research-driven nutrition, personalized health solutions, global health advancement, health and wellness, scientific rigor, nutraceutical innovation, leadership in health, safe healthcare solutions",
   },
