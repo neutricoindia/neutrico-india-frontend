@@ -12,7 +12,7 @@ const openGraphImage = {
 };
 
 export const metadata = {
-  title: "Nutrico India | Contact Page || Get In Touch with Us",
+  title: "Nutrico India | Get In Touch with Us",
   description: `
     Get In Touch with NEUTRICO INDIA.
     We're always excited to hear from you! Questions, feedback, or greetings welcome (contact info below).
