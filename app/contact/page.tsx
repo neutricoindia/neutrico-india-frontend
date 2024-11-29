@@ -12,7 +12,20 @@ const openGraphImage = {
 };
 
 export const metadata = {
-  title: "Nutrico India | Contact Page",
+  title: "Nutrico India | Contact Page || Get In Touch with Us",
+  description: `
+    Get In Touch with NEUTRICO INDIA.
+    We're always excited to hear from you! Questions, feedback, or greetings welcome (contact info below).
+    Contact Us:
+    NEUTRICO INDIA
+    A321, Master Mind 4, Royal Palms,
+    Goregaon (East),
+    Mumbai,
+    Maharashtra- 400065
+    `,
+  keywords:
+    "Neutrico India contact, nutricoindia, Neutrico India customer service, Neutrico India support, Neutrico India office address, Neutrico India headquarters, Contact Neutrico India, Neutrico India support team, Neutrico India help center, Neutrico India Mumbai, Neutrico India Maharashtra, Neutrico India Kolkata, Neutrico India WestBengal",
+
   openGraph: {
     ...openGraphImage,
     title: "Nutrico India Contact Page",
