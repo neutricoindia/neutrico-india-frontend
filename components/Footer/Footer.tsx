@@ -27,42 +27,26 @@ function FooterSection() {
           <h6 className="heading">Certificates</h6>
           <ul className="nospace clear latestimg">
             <li>
-              {/* <a className="imgover" href="#"> */}
-              <Image src={"/images/fssai.png"} alt="" width="75" height="40" />
-              {/* </a> */}
+              <Image
+                src={"/images/fssai.png"}
+                alt="fssai"
+                width="75"
+                height="40"
+              />
             </li>
             <li>
-              {/* <a className="imgover" href="#"> */}
-              <Image src={"/images/msme.png"} alt="" width="75" height="40" />
-              {/* </a> */}
+              <Image
+                src={"/images/msme.png"}
+                alt="msme"
+                width="75"
+                height="40"
+              />
             </li>
             <li>
-              {/* <a className="imgover" href="#"> */}
-              <Image src={"/images/iso.png"} alt="" width="75" height="40" />
-              {/* </a> */}
+              <Image src={"/images/iso.png"} alt="iso" width="75" height="40" />
             </li>
           </ul>
         </div>
-        {/* <div className="one_quarter last">
-          <h6 className="heading">Popular Products</h6>
-          <ul className="nospace clear latestimg">
-            <li>
-              <a className="imgover" href="#">
-                <Image src={"/images/p1.png"} alt="" width="75" height="75" />
-              </a>
-            </li>
-            <li>
-              <a className="imgover" href="#">
-                <Image src={"/images/p2.png"} alt="" width="75" height="75" />
-              </a>
-            </li>
-            <li>
-              <a className="imgover" href="#">
-                <Image src={"/images/p1.png"} alt="" width="75" height="75" />
-              </a>
-            </li>
-          </ul>
-        </div> */}
       </footer>
     </div>
   );
