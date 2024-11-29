@@ -17,13 +17,13 @@ export const metadata = {
   alternates: {
     canonical: "https://www.neutricoindia.in/about",
   },
-  description: `NEUTRICO INDIA is a leading provider of science-backed nutritional solutions dedicated to improving global health. By harnessing the power of research and innovation, we offer a range of products, including nutraceuticals and medical nutrition, tailored to specific health needs. Our commitment to quality and efficacy ensures that our solutions empower individuals to live healthier, happier lives.`,
+  description: `We are dedicated to the advancement of global health through its research-driven approach to developing nutritional solutions.`,
   keywords:
     "NEUTRICO INDIA, nutricoindia, nutritional solutions, nutraceuticals, medical nutrition, women's health, gynecological health, healthcare industry, evidence-based medicine, scientific research, personalized wellness, global wellness, preventative healthcare, supplementary nutrition, innovative nutritional solutions, sustainable nutrition, science-backed products, healthcare professionals, top-quality healthcare products, health challenges, research-driven nutrition, personalized health solutions, global health advancement, health and wellness, scientific rigor, nutraceutical innovation, leadership in health, safe healthcare solutions",
   openGraph: {
     ...openGraphImage,
     title: "Nutrico India About Page",
-    description: `NEUTRICO INDIA is a leading provider of science-backed nutritional solutions dedicated to improving global health. By harnessing the power of research and innovation, we offer a range of products, including nutraceuticals and medical nutrition, tailored to specific health needs. Our commitment to quality and efficacy ensures that our solutions empower individuals to live healthier, happier lives.`,
+    description: `We are dedicated to the advancement of global health through its research-driven approach to developing nutritional solutions.`,
     keywords:
       "NEUTRICO INDIA, nutricoindia, nutritional solutions, nutraceuticals, medical nutrition, women's health, gynecological health, healthcare industry, evidence-based medicine, scientific research, personalized wellness, global wellness, preventative healthcare, supplementary nutrition, innovative nutritional solutions, sustainable nutrition, science-backed products, healthcare professionals, top-quality healthcare products, health challenges, research-driven nutrition, personalized health solutions, global health advancement, health and wellness, scientific rigor, nutraceutical innovation, leadership in health, safe healthcare solutions",
   },
