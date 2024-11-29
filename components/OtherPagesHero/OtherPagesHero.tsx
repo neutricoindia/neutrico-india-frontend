@@ -18,7 +18,7 @@ function OtherPagesHero({ bgURL, title, body }: any) {
             <h3 className="heading">{body}</h3>
             <footer>
               <Link className="btn" href="/contact">
-                <strong>Contact Us</strong>
+                <strong>Contact Us Today</strong>
               </Link>
             </footer>
           </article>

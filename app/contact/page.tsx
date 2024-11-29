@@ -26,6 +26,8 @@ export const metadata = {
     Mumbai,
     Maharashtra- 400065
     `,
+    keywords:
+      "Neutrico India contact, Neutrico India customer service, Neutrico India support, Neutrico India office address, Neutrico India headquarters, Contact Neutrico India, Neutrico India support team, Neutrico India help center, Neutrico India Mumbai, Neutrico India Maharashtra, Neutrico India Kolkata, Neutrico India WestBengal",
   },
 };
 function ContactPage() {
